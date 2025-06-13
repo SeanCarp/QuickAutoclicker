@@ -1,4 +1,7 @@
 # pip install py2app
+# make sure have the following libraries installed: pyautogui, keyboard
+# then run `python autocliker_setup.py py2app`
+# and the program should spit out a build folder.
 
 from setuptools import setup
 APP = ['autoclicker.py']
